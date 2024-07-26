@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+/* Menus */
+nav ul {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+/* Links
+nav a:link,
+nav a:visited {
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+nav a:hover,
+nav a:active {
+  color: black !important;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input.invalid {
+  border: 2px dashed red;
+}
+
+.input-alert {
+  color: red;
+}
+
+.btn {
+  margin: 3px;
+} */
+
+.titular {
+  color: white;
+  background-color: #4f6a7c;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#intro {
+  height: 100vh;
+  background-size: cover !important;
+}
+
+.hero {
+  background: url(../img/hero/apartament-vistes.jpg) no-repeat center;
+}
+
+.hero h1,
+h2,
+h3,
+p {
+  color: black;
+}
+
+.img-cover {
+  width: 100%;
+}
+
+a.rounded-link {
+  display: inline-block;
+  color: #fff;
+  background-color: #4f6a7c;
+  text-decoration: none;
+  border-radius: 2em;
+  padding: 10px 50px;
+  margin-top: 30px;
+  font-size: 17px
+}
+
+a.rounded-link-light {
+  display: inline-block;
+  color: #fff;
+  background-color: #4f6a7c;
+  text-decoration: none;
+  border-radius: 2em;
+  padding: 10px 50px;
+  margin-top: 30px;
+  font-size: 17px
+}
+
+footer {
+  background-color: #92b0c3;
+
+  a:link,
+  a:visited {
+    color: white;
+  }
+}
+
+footer .copyright {
+  color: black;
+  background-color: #4f6a7c;
+
+  a:link,
+  a:visited {
+    color: black;
+  }
+}
+
+.reservas-section {
+  background-color: #f2f2f2;
+}
+
+.propietarias {
+  border-radius: 150px;
+  border: 10px solid #4f6a7c;
+}
+
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+@media screen and (min-width: 540px) {
+  a.rounded-link {
+    font-size: calc(.43478vw + 14.65217px)
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  a.rounded-link,
+  input.rounded-link {
+    font-size: 23px
+  }
+}
+
+.galeria-fotos {
+  display: flex;
+  justify-content: space-around;
+  grid-auto-flow: row;
+  flex-wrap: wrap;
+}
+
+.foto {
+  max-width: 400px;
+  min-width: 150px;
+  padding: 10px;
+}
+
+.diferent-font {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 800;
+  font-style: bold;
+}
+.botons {
+  display: flex;
+  justify-content: space-around;
+  grid-auto-flow: row;
+  flex-wrap: wrap;
+}
+
+blockquote.destacat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding: 15px;
+  border-left: 3px solid #ccc;
+}
