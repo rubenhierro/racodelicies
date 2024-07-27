@@ -17,38 +17,6 @@ nav ul li {
   display: inline;
 }
 
-/* Links
-nav a:link,
-nav a:visited {
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-nav a:hover,
-nav a:active {
-  color: black !important;
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-input.invalid {
-  border: 2px dashed red;
-}
-
-.input-alert {
-  color: red;
-}
-
-.btn {
-  margin: 3px;
-} */
-
 .titular {
   color: white;
   background-color: #4f6a7c;
@@ -183,6 +151,7 @@ footer .copyright {
   font-weight: 800;
   font-style: bold;
 }
+
 .botons {
   display: flex;
   justify-content: space-around;
