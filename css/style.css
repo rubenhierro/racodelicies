@@ -119,20 +119,6 @@ footer .copyright {
   background-color: rgba(255, 255, 255, .5);
 }
 
-@media screen and (min-width: 540px) {
-  a.rounded-link {
-    font-size: calc(.43478vw + 14.65217px)
-  }
-}
-
-@media screen and (min-width: 1920px) {
-
-  a.rounded-link,
-  input.rounded-link {
-    font-size: 23px
-  }
-}
-
 .galeria-fotos {
   display: flex;
   justify-content: space-around;
@@ -165,4 +151,26 @@ blockquote.destacat {
   margin-left: 30px;
   padding: 15px;
   border-left: 3px solid #ccc;
+}
+
+@media screen and (min-width: 540px) {
+  a.rounded-link {
+    font-size: calc(.43478vw + 14.65217px)
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  a.rounded-link,
+  input.rounded-link {
+    font-size: 23px
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .noe-isa {
+    text-align: center !important;
+    padding: 0 20px 0 20px;
+  }
 }
