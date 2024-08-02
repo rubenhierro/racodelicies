@@ -155,6 +155,25 @@ blockquote.destacat {
   border-left: 3px solid #ccc;
 }
 
+.llegenda {
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+
+.color-square {
+  border: black 1px solid;
+  height: 20px;
+  width: 20px;
+  background-color: #49619C;
+}
+
+.color-square-empty {
+  border: black 1px solid;
+  height: 20px;
+  width: 20px;
+}
+
+
 @media screen and (min-width: 540px) {
   a.rounded-link {
     font-size: calc(.43478vw + 14.65217px)
