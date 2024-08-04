@@ -173,6 +173,9 @@ blockquote.destacat {
   width: 20px;
 }
 
+.reserva-minima{
+  display: none;
+}
 
 @media screen and (min-width: 540px) {
   a.rounded-link {
