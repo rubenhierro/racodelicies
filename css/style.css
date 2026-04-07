@@ -15,7 +15,7 @@
   line-height: 1.8;
 }
 
-/* Menus */
+
 nav ul {
   text-decoration: none;
 }
@@ -200,6 +200,14 @@ blockquote.destacat {
   color: var(--color-negro);
 }
 
+.service-list li {
+  list-style-type: none;
+  margin-left: -10px;
+}
+
+ul li i {
+  padding-right: 10px;
+}
 
 /* Responsive Design */
 @media screen and (min-width: 540px) {
