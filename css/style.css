@@ -52,17 +52,7 @@ p {
   width: 100%;
 }
 
-a.rounded-link {
-  display: inline-block;
-  color: #fff;
-  background-color: var(--color-primario);
-  text-decoration: none;
-  border-radius: 2em;
-  padding: 10px 50px;
-  margin-top: 30px;
-  font-size: 17px
-}
-
+a.rounded-link,
 a.rounded-link-light {
   display: inline-block;
   color: #fff;
@@ -71,7 +61,22 @@ a.rounded-link-light {
   border-radius: 2em;
   padding: 10px 50px;
   margin-top: 30px;
-  font-size: 17px
+  font-size: 17px;
+  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+a.rounded-link:hover,
+a.rounded-link-light:hover {
+  background-color: #005277;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+a.rounded-link:active,
+a.rounded-link-light:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 footer {
