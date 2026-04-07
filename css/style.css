@@ -209,6 +209,19 @@ ul li i {
   padding-right: 10px;
 }
 
+table.table-borderless i.icon {
+  font-size: 1.8em;
+  color: var(--color-primario);
+  font-weight: normal;
+  min-width: 30px;
+}
+
+table.table-borderless td:first-child {
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+}
+
 /* Responsive Design */
 @media screen and (min-width: 540px) {
   a.rounded-link {
