@@ -1,3 +1,12 @@
+:root {
+  --color-primario: #006994;
+  --color-secundario: #F5F5DC;
+  --color-fondo: #f2f2f2;
+  --color-texto: #333333;
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,8 +25,8 @@ nav ul li {
 }
 
 .titular {
-  color: white;
-  background-color: #4f6a7c;
+  color: var(--color-blanco);
+  background-color: var(--color-primario);
   margin-top: 20px;
   padding: 10px;
   padding-left: 20px;
@@ -36,7 +45,7 @@ nav ul li {
 h2,
 h3,
 p {
-  color: black;
+  color: var(--color-texto);
 }
 
 .img-cover {
@@ -46,7 +55,7 @@ p {
 a.rounded-link {
   display: inline-block;
   color: #fff;
-  background-color: #4f6a7c;
+  background-color: var(--color-primario);
   text-decoration: none;
   border-radius: 2em;
   padding: 10px 50px;
@@ -57,7 +66,7 @@ a.rounded-link {
 a.rounded-link-light {
   display: inline-block;
   color: #fff;
-  background-color: #4f6a7c;
+  background-color: var(--color-primario);
   text-decoration: none;
   border-radius: 2em;
   padding: 10px 50px;
@@ -66,35 +75,40 @@ a.rounded-link-light {
 }
 
 footer {
-  background-color: #92b0c3;
+  background-color: var(--color-fondo);
 
   a:link,
   a:visited {
-    color: white;
+    color: var(--color-blanco);
   }
 }
 
 footer .copyright {
-  color: black;
-  background-color: #4f6a7c;
+  color: var(--color-negro);
+  background-color: var(--color-primario);
 
   a:link,
   a:visited {
-    color: black;
+    color: var(--color-negro);
   }
 }
 
+.container-fluid.bg-light,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
 .reservas-section {
-  background-color: #f2f2f2;
+  background-color: var(--color-fondo);
 }
 
 .propietarias {
   border-radius: 150px;
-  border: 10px solid #4f6a7c;
+  border: 10px solid var(--color-primario);
 }
 
 /* Responsive iFrame */
-
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -159,14 +173,14 @@ blockquote.destacat {
 }
 
 .color-square {
-  border: black 1px solid;
+  border: var(--color-negro) 1px solid;
   height: 20px;
   width: 20px;
   background-color: #49619C;
 }
 
 .color-square-empty {
-  border: black 1px solid;
+  border: var(--color-negro) 1px solid;
   height: 20px;
   width: 20px;
 }
@@ -175,6 +189,12 @@ blockquote.destacat {
   display: none;
 }
 
+.taula-preus th {
+  font-weight: bold;
+}
+
+
+/* Responsive Design */
 @media screen and (min-width: 540px) {
   a.rounded-link {
     font-size: calc(.43478vw + 14.65217px)
