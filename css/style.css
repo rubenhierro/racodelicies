@@ -34,11 +34,29 @@ nav ul li {
 
 #intro {
   height: 100vh;
-  background-size: cover !important;
+  position: relative;
 }
 
-.hero {
-  background: url(../img/hero/apartament-vistes.jpg) no-repeat center;
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1,
@@ -155,6 +173,7 @@ footer {
   font-family: "Reenie Beanie", cursive;
   font-weight: 800;
   font-style: bold;
+  color: var(--color-primario);
 }
 
 .botons {
